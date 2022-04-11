@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MIJOCHI PORTAL</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="username-screen">
+            <h1>MIJOCHI PORTAL</h1>
+            <p>Please enter your name to gain access to the awesome portal</p>
+            <input id="inputMain" class="input-main" type="text" name="username" autofocus/>
+            <button id="enter-portal">Enter Portal</button>
+            <div id="error">
+                <p>
+                    <strong>MA DAJ!!! UNESI IME!!!
+                    </strong>
+                    <p>
+            </div>
+        </div>
+
+        <div id="chat" class="style-1">
+            <div id="output">
+
+            </div>
+            <div id="feedback"></div>
+        </div>
+
+
+        <div id="enter-message">
+            <input id="input-message" class="input-main input-chat-room" type="text" name="message" />
+            <button id="button-chat-room">Send</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
